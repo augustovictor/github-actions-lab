@@ -22,10 +22,10 @@ jobs:
         run: |
           # Your ML workflow goes here
           poetry install
-          python train.py
+          python pipeline/train.py
       - name: Write CML report
         env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
         run: |
           # Post reports as comments in GitHub PRs
           cat summary.txt >> report.md
