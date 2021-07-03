@@ -1,7 +1,9 @@
 name: 'Some specific-branch action'
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - "feature/validating-report-on-push"
 
 jobs:
   specific-branch-job:
