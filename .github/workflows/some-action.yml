@@ -10,3 +10,9 @@ jobs:
       - name: First step here
         run: |
           echo "Some commands here..."
+      - name: Second step here
+        run: |
+          echo "Some commands here..."
+      - name: Third step here
+        run: |
+          echo "Some commands here..."
