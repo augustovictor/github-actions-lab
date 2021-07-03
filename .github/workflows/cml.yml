@@ -1,4 +1,4 @@
-name: your-workflow-name
+name: CML workflow
 on: [push]
 
 jobs:
