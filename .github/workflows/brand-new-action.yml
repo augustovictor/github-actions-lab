@@ -1,10 +1,12 @@
-name: 'Some unimplemented action'
+name: 'Some specific-branch action'
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - "feature/validating-report-on-push"
 
 jobs:
-  manual-deploy:
+  specific-branch-job:
     runs-on: [ubuntu-latest]
     steps:
       - name: First step here

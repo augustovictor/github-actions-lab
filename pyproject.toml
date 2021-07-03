@@ -6,6 +6,7 @@ authors = ["augustovictor <victor.costa@loft.com.br>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+Flask = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 
