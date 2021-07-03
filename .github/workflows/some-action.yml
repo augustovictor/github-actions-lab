@@ -1,0 +1,12 @@
+name: 'Some unimplemented action'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  manual-deploy:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: First step here
+        run: |
+          echo "Some commands here..."
